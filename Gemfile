@@ -10,7 +10,7 @@ group :development do
   gem 'guard-rspec'
   gem 'simplecov'
   gem 'coveralls', require: false
-  gem "webmock"
+  gem "webmock", ">= 1.16.1"
   gem 'vcr'
   gem 'codeclimate-test-reporter'
   gem 'hashie'
