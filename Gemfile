@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 gemspec
 group :development do
   gem 'rspec'
-  gem "activemodel", ">= 3.1"
-  gem "activesupport", ">= 3.1"
+  gem "activemodel", ">= 4.1.5"
+  gem "activesupport", ">= 4.1.5"
   gem 'guard'
   gem 'ruby_gntp'
   gem 'guard-rspec'
