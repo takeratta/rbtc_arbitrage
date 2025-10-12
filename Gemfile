@@ -14,6 +14,6 @@ group :development do
   gem 'vcr'
   gem 'codeclimate-test-reporter'
   gem 'hashie'
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.0.0'
   gem 'dotenv'
 end
